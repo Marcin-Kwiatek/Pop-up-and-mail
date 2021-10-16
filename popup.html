@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up</title>
+    <link rel="stylesheet" href="popup.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">WITAJ!</div>
+        <div class="mainHeader">WYPEŁNIJ FORMULARZ I ZGARNIJ <span style="color:#185B61">KUPON RABATOWY</span> DO WYKORZYSTANIA PRZY NAJBLIŻSZYCH ZAKUPACH</div>
+        <input type="text" placeholder="EMAIL" class="emailInput" id="emailInput">
+        <input type="text" maxlength="11" placeholder="IMIĘ" class="nameInput" id="nameInput"><br>
+        <div class="agreement">
+            <span class="material-icons-outlined" id="accepted">
+                check_box
+            </span>
+            <span class="material-icons-outlined" id="notAccepted">
+                check_box_outline_blank
+            </span>
+            <div class="agreementText">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nesciunt hic reiciendis dolores commodi sequi maxime delectus expedita quibusdam fugit!
+            </div>
+        </div>
+        <div class="buttonwrapper">
+            <button id="submitButton" class="sendButton">wyślij</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
